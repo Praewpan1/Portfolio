@@ -8,7 +8,7 @@ export const About = () => {
       <h2 className={styles.title}>About Me</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("hero/heroImage.jpg")}
+          src={getImageUrl("images/hero/heroImage.jpg")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -24,7 +24,7 @@ export const About = () => {
           <div className={styles.documentSection}>
             <div className={styles.aboutItem}>
               <img
-                src={getImageUrl("about/resumeIcon.png")}
+                src={getImageUrl("images/about/resumeIcon.png")}
                 alt="Resume icon"
               />
               <div>
@@ -41,7 +41,7 @@ export const About = () => {
             </div>
             <div className={styles.aboutItem}>
               <img
-                src={getImageUrl("about/TranscriptIcon.png")}
+                src={getImageUrl("images/about/TranscriptIcon.png")}
                 alt="Transcript icon"
               />
               <div>

@@ -5,7 +5,7 @@
     "startDate": "Mar 2021",
     "endDate": "May 2021",
     "experiences": ["IT Support"],
-    "imageSrc": "history/Health_Office.png"
+    "imageSrc": "images/history/Health_Office.png"
   },
   {
     "role": "Internship",
@@ -17,6 +17,6 @@
       "Entered payment data.",
       "Prepared daily summaries."
     ],
-    "imageSrc": "history/plumbing.png"
+    "imageSrc": "images/history/plumbing.png"
   }
 ]

@@ -12,13 +12,13 @@ export const Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/phoneIcon.png")}
+                    <img src={getImageUrl("images/contact/phoneIcon.png")}
                         alt="Phone icon"
                     />
                     <a href="tel:+66628396593">062-839-6593</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/emailIcon.png")}
+                    <img src={getImageUrl("images/contact/emailIcon.png")}
                         alt="Email icon"
                     />
                     <a href="mailto:praewpan1397@gmail.com">praewpan1397@gmail.com</a>
