@@ -1,0 +1,13 @@
+[
+    {
+      "title": "Project Smart Bottle Recycling Cabinet",
+      "imageSrc": "Projects/Project.png",
+      "description": "   This project developed an intelligent bottle recycling system using image processing technology to detect and classify PET bottles with high accuracy. It features a graphical user interface for real-time data display, a database for transaction storage, and automated notifications via LINE. Additionally, a points-based reward system was implemented through a website to enhance user convenience and engagement."
+    },
+    {
+      "title": "    Raspberry Pi Pico: Board Training Set",
+      "imageSrc": "Projects/Project1.jpeg",
+      "description": "  I designed and developed a training kit for learning programming and working with Raspberry Pi Pico. The kit includes 10 essential electronic components, a user manual, and hands-on exercises, making it ideal for students and anyone interested in IoT."
+    }
+  ]
+  

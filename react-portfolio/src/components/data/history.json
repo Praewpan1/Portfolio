@@ -1,0 +1,22 @@
+[
+  {
+    "role": "Internship",
+    "organisation": "Samut songkhram Provincial Health Office",
+    "startDate": "Mar 2021",
+    "endDate": "May 2021",
+    "experiences": ["IT Support"],
+    "imageSrc": "history/Health_Office.png"
+  },
+  {
+    "role": "Internship",
+    "organisation": "Provincial Waterworks Authority, Samut Songkhram",
+    "startDate": "Mar 2019",
+    "endDate": "May 2019",
+    "experiences": [
+      "Received payments.",
+      "Entered payment data.",
+      "Prepared daily summaries."
+    ],
+    "imageSrc": "history/plumbing.png"
+  }
+]
