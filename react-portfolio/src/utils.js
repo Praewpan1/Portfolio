@@ -1,5 +1,5 @@
 
 export const getImageUrl = (path) => {
-    return new URL(`/assets/${path}`, window.location.origin).href;
+    return new URL(`/${path}`, window.location.origin).href;
   };
   

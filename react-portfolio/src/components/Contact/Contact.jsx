@@ -24,7 +24,7 @@ export const Contact = () => {
                     <a href="mailto:praewpan1397@gmail.com">praewpan1397@gmail.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/githubIcon.png")}
+                    <img src={getImageUrl("images/contact/githubIcon.png")}
                         alt="Github icon"
                     />
                     <a href="https://github.com/Praewpan1/Portfolio">github.com/Praewpan1/Portfolio</a>
