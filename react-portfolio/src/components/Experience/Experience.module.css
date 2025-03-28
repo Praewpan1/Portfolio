@@ -96,7 +96,7 @@
     margin-left: 17px;
     
 }
-@media screen and(max-wight:830px) {
+@media screen and (max-wight:830px) {
     .container{
         flex-direction: column;
         align-items: center;
