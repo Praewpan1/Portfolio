@@ -17,7 +17,8 @@
 .content{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 14px;
     gap: 20px;
 }
@@ -26,6 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
+    
 }
 .skill{
     display: flex;
@@ -63,6 +65,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
 }
 .historyItem{
     display: flex;
@@ -97,20 +100,60 @@
     margin-left: 17px;
     
 }
+.sectionTitle {
+    width: 45%; 
+    text-align: left;
+}
+.sectionTitleEx {
+    width: 45%; 
+    text-align: left;
+}
+@media screen and (min-width: 830px) {
+    .sectionTitleEx {
+      display: none;
+    }
+  }
+  
+
+@media screen and (max-width: 830px) {
+    .sectionTitle:last-of-type {
+        display: none;
+    }
+}
+
+.skills, .history {
+    width: 45%;
+}
 @media screen and (max-width:830px) {
     .container{
+        display: flex;
         flex-direction: column;
         align-items: center;
         gap: 34px;
     }
     .skills{
         width: 100%;
-        flex-direction: row;
+        display: flex;      
+        flex-wrap: wrap;
         justify-content: center;
+        
     }
     .history{
         width: 100%;
+        display: flex;
+        flex-direction: column;
         gap: 9px;
+       
+        
     }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 34px;
+        
+    }
+   
     
 }
